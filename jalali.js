@@ -176,7 +176,7 @@ Date.prototype.getJalaliDate = function() {
 	var gm = this.getMonth();
 	var gy = this.getFullYear();
 	var j = JalaliDate.gregorianToJalali(gy, gm+1, gd);
-	return j[2];
+	return j;
 }
 
 Date.prototype.getJalaliDay = function() {
